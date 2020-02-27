@@ -2,6 +2,8 @@
 The following projects consist of python scripts, each with a specific function.
 # WebCheck
 This file automatically logins into a website by finding the email and password fields, which has data inputted into them to enter a specific account for the website. Afterwards, it fetches the next webpage and checks for a specific element on a webpage. If such does not exist, then an alert is made. There is optional code to hide the webdriver console which can be done following this tutorial: https://stackoverflow.com/a/48802883. 
+> Locate service.py, generally in "X:\YourPythonFold\Lib\site-packages\selenium\webdriver\common\service.py"
+
 > Replace these lines
 ```
 self.process = subprocess.Popen(cmd, env=self.env,
