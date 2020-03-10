@@ -25,5 +25,5 @@ args = ["hide_console", ]
 driver = webdriver.Chrome("your-path-to-chromedriver.exe", service_args=args, ...)
 ```
 > When editing the source code, be careful to PEP! Do not use tabs, just spaces!
-# Weather.py
+# Weather
 This file checks the weather in whatever place you are at using the OpenWeatherMap API. It gathers the current weather, wind speed, the humidity, and the temperature. To run this, it is required you have an API key [from here](https://openweathermap.org/price). Store your API key within a file called config.ini and the program will fetch it from there. 
