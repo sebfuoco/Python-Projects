@@ -1,7 +1,7 @@
 # Python-Projects
 The following projects consist of python scripts, each with a specific function.
 # WebCheck
-This file automatically logins into a website by finding the email and password fields, which has data inputted into them to enter a specific account for the website. Afterwards, it fetches the next webpage and checks for a specific element on a webpage. If such does not exist, then an alert is made. There is optional code to hide the webdriver console which can be done following this tutorial: https://stackoverflow.com/a/48802883. 
+This file automatically logins into a website by finding the email and password fields, which has data inputted into them to enter a specific account for the website. Afterwards, it fetches the next webpage and checks for a specific element on a webpage. If such does not exist, then an alert is made. There is optional code to hide the webdriver console which can be done following [this tutorial](https://stackoverflow.com/a/48802883). 
 > Locate service.py, generally in "X:\YourPythonFold\Lib\site-packages\selenium\webdriver\common\service.py"
 
 > Replace these lines
@@ -25,3 +25,5 @@ args = ["hide_console", ]
 driver = webdriver.Chrome("your-path-to-chromedriver.exe", service_args=args, ...)
 ```
 > When editing the source code, be careful to PEP! Do not use tabs, just spaces!
+# Weather.py
+This file checks the weather in whatever place you are at using the OpenWeatherMap API. It gathers the current weather, wind speed, the humidity, and the temperature. To run this, it is required you have an API key [from here](https://openweathermap.org/price). Store your API key within a file called config.ini and the program will fetch it from there. 
