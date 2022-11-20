@@ -27,3 +27,6 @@ driver = webdriver.Chrome("your-path-to-chromedriver.exe", service_args=args, ..
 > When editing the source code, be careful to PEP! Do not use tabs, just spaces!
 # Weather
 This file checks the weather in whatever place you are at using the OpenWeatherMap API, with updated weather every 3 hours within a 24 hour span. It gathers the current weather, the humidity, and the temperature. To run this, it is required you have an API key [from here](https://openweathermap.org/price). Store your API key within a file called config.ini and the program will fetch it from there.
+
+# Pokemon Daycare
+This script will automate the daycare leveling process whilst an emulator is open, using the speedup key and movement keys. Currently a maximum time is in place but can be changed.
